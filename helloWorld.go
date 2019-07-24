@@ -4,9 +4,9 @@ import "fmt"
 
 // Single Line Comment
 
-/* Mulitple Line
-* Other Lines
-* Comments */
+/* Mulitple Line Comments
+   Can Go Here
+   And Here */
 
 func main() {
 	fmt.Println("Hello World")
