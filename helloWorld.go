@@ -2,9 +2,11 @@ package main
 
 import "fmt"
 
-// Comments
+// Single Line Comment
 
-/* comment */
+/* Mulitple Line
+* Other Lines
+* Comments */
 
 func main() {
 	fmt.Println("Hello World")
