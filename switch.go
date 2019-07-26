@@ -35,7 +35,8 @@ func main() {
 		fmt.Println("It's after 12 noon.")
 	}
 
-	// This switch statement compares types to see if it is boolean (true / false) or not
+	// This switch statement compares types to see if it is boolean (true / false) or not, then tells if it is an
+	// integer or not and finally deterines it doesn't know that it's a type string
 	whatAmI := func(i interface{}) {
 		switch t := i.(type) {
 		case bool:
