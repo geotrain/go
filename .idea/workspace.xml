@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/for.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ifElse.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/for.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="420">
               <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ifElse.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -84,6 +93,7 @@
         <option value="$PROJECT_DIR$/constants.go" />
         <option value="$PROJECT_DIR$/helloWorld.go" />
         <option value="$PROJECT_DIR$/for.go" />
+        <option value="$PROJECT_DIR$/ifElse.go" />
       </list>
     </option>
   </component>
@@ -141,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build for.go">
+  <component name="RunManager" selected="Go Build.go build ifElse.go">
     <configuration name="go build constants.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -150,18 +160,19 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build file.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/for.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ifElse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ifElse.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -183,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ifElse.go" />
         <item itemvalue="Go Build.go build for.go" />
         <item itemvalue="Go Build.go build constants.go" />
         <item itemvalue="Go Build.go build values.go" />
         <item itemvalue="Go Build.go build variables.go" />
-        <item itemvalue="Go Build.go build file.go" />
       </list>
     </recent_temporary>
   </component>
@@ -195,12 +206,12 @@
     <frame x="-1" y="23" width="1440" height="834" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010526" side_tool="true" weight="0.26752505" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32823366" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32823366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,7 +257,8 @@
     <MESSAGE value="Add variables go script" />
     <MESSAGE value="Add constants script" />
     <MESSAGE value="Change Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Comments" />
+    <MESSAGE value="for loop examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loop examples" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/file.go" />
@@ -291,8 +303,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/for.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="420">
           <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ifElse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
