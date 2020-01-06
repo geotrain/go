@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fizzBuzzChallenge.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifStatement.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mean.go" beforeDir="false" afterPath="$PROJECT_DIR$/mean.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizzBuzzChallenge.go" beforeDir="false" afterPath="$PROJECT_DIR$/fizzBuzzChallenge.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +151,7 @@
     <MESSAGE value="Function examples" />
     <MESSAGE value="Multiple Return Value examples" />
     <MESSAGE value="Add mean.go file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mean.go file" />
+    <MESSAGE value="Add fizz buzz challenage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fizz buzz challenage" />
   </component>
 </project>

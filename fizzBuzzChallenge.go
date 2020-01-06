@@ -11,12 +11,12 @@ import (
 
 func main() {
 	for i := 1; i <= 20; i++ {
-		if i%3 == 0 {
-			fmt.Println("fizz") // For number 3
-		} else if i%5 == 0 {
-			fmt.Println("buzz") // For number 5
-		} else if i%3 == 0 && i%5 == 0 {
-			fmt.Println("fizz buzz") // For number 15
+		if i%3 == 0 && i%5 == 0 { // For number 15 with && logical operator
+			fmt.Println("fizz buzz")
+		} else if i%3 == 0 { // For number 3, 6, 9, 12, and 18
+			fmt.Println("fizz")
+		} else if i%5 == 0 { // For number 5, 10, and 20
+			fmt.Println("buzz")
 		} else {
 			fmt.Println(i)
 		}
