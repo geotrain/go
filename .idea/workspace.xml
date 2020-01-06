@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arrays" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mean.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fizzBuzzChallenge.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ifStatement.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go Essentials Training Exercise Files/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go Essentials Training Exercise Files/.idea/Go Essentials Training Exercise Files.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go Essentials Training Exercise Files/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go Essentials Training Exercise Files/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go Essentials Training Exercise Files/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean.go" beforeDir="false" afterPath="$PROJECT_DIR$/mean.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +28,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Greg Westmoreland" />
         <option value="geotrain &lt;gregwestmoreland@startmail.com&gt;" />
         <option value="ge" />
       </list>
@@ -71,54 +68,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build mean.go">
-    <configuration name="go build functions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build fizzBuzzChallenge.go">
+    <configuration name="go build fizzBuzzChallenge.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/functions.go" />
+      <filePath value="$PROJECT_DIR$/fizzBuzzChallenge.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mean.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/mean.go" />
+      <filePath value="$PROJECT_DIR$/for.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build multipleReturnValues.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build ifElse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/multipleReturnValues.go" />
+      <filePath value="$PROJECT_DIR$/ifElse.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build if.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/range.go" />
+      <filePath value="$PROJECT_DIR$/if.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build variadicFunctions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/variadicFunctions.go" />
+      <filePath value="$PROJECT_DIR$/switch.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build mean.go" />
-        <item itemvalue="Go Build.go build variadicFunctions.go" />
-        <item itemvalue="Go Build.go build multipleReturnValues.go" />
-        <item itemvalue="Go Build.go build functions.go" />
-        <item itemvalue="Go Build.go build range.go" />
+        <item itemvalue="Go Build.go build fizzBuzzChallenge.go" />
+        <item itemvalue="Go Build.go build for.go" />
+        <item itemvalue="Go Build.go build switch.go" />
+        <item itemvalue="Go Build.go build ifElse.go" />
+        <item itemvalue="Go Build.go build if.go" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +152,7 @@
     <MESSAGE value="Range Examples" />
     <MESSAGE value="Function examples" />
     <MESSAGE value="Multiple Return Value examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiple Return Value examples" />
+    <MESSAGE value="Add mean.go file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mean.go file" />
   </component>
 </project>
