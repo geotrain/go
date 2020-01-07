@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maps2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapsChallenge.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,20 +66,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build maps2.go">
-    <configuration name="go build evenEndedNumbers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/evenEndedNumbers.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build mapsChallenge.go">
     <configuration name="go build maps2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/maps2.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mapsChallenge.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/mapsChallenge.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build mapsChallenge.go" />
         <item itemvalue="Go Build.go build maps2.go" />
         <item itemvalue="Go Build.go build maps.go" />
         <item itemvalue="Go Build.go build maximumValueChallenge.go" />
         <item itemvalue="Go Build.go build slicesLoonyTunes.go" />
-        <item itemvalue="Go Build.go build evenEndedNumbers.go" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +157,7 @@
     <MESSAGE value="evenEndedNumbers challenge" />
     <MESSAGE value="Slices example using Looney Tunes Characters" />
     <MESSAGE value="Find maximum value in array challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find maximum value in array challenge" />
+    <MESSAGE value="maps 2nd example" />
+    <option name="LAST_COMMIT_MESSAGE" value="maps 2nd example" />
   </component>
 </project>
