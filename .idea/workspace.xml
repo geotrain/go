@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/strings.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizzBuzzChallenge.go" beforeDir="false" afterPath="$PROJECT_DIR$/fizzBuzzChallenge.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build fizzBuzzChallenge.go">
+  <component name="RunManager" selected="Go Build.go build strings.go">
     <configuration name="go build fizzBuzzChallenge.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -91,11 +91,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build if.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/if.go" />
+      <filePath value="$PROJECT_DIR$/strings.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build strings.go" />
         <item itemvalue="Go Build.go build fizzBuzzChallenge.go" />
         <item itemvalue="Go Build.go build for.go" />
         <item itemvalue="Go Build.go build switch.go" />
         <item itemvalue="Go Build.go build ifElse.go" />
-        <item itemvalue="Go Build.go build if.go" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +152,7 @@
     <MESSAGE value="Multiple Return Value examples" />
     <MESSAGE value="Add mean.go file" />
     <MESSAGE value="Add fizz buzz challenage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fizz buzz challenage" />
+    <MESSAGE value="Fix logic order to check if number is divisible by 3 and 5 with &amp;&amp; in the if statement first before checking if only divisible by 3 or 5 individually so it will print both words &quot;fizz buzz&quot; for number 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix logic order to check if number is divisible by 3 and 5 with &amp;&amp; in the if statement first before checking if only divisible by 3 or 5 individually so it will print both words &quot;fizz buzz&quot; for number 15" />
   </component>
 </project>
