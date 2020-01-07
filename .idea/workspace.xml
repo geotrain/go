@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/strings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evenEndedNumbers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +66,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build strings.go">
+  <component name="RunManager" selected="Go Build.go build evenEndedNumbers.go">
+    <configuration name="go build evenEndedNumbers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/evenEndedNumbers.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build fizzBuzzChallenge.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -80,14 +88,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/for.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build ifElse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ifElse.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build evenEndedNumbers.go" />
         <item itemvalue="Go Build.go build strings.go" />
         <item itemvalue="Go Build.go build fizzBuzzChallenge.go" />
         <item itemvalue="Go Build.go build for.go" />
         <item itemvalue="Go Build.go build switch.go" />
-        <item itemvalue="Go Build.go build ifElse.go" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +153,7 @@
     <MESSAGE value="Add mean.go file" />
     <MESSAGE value="Add fizz buzz challenage" />
     <MESSAGE value="Fix logic order to check if number is divisible by 3 and 5 with &amp;&amp; in the if statement first before checking if only divisible by 3 or 5 individually so it will print both words &quot;fizz buzz&quot; for number 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix logic order to check if number is divisible by 3 and 5 with &amp;&amp; in the if statement first before checking if only divisible by 3 or 5 individually so it will print both words &quot;fizz buzz&quot; for number 15" />
+    <MESSAGE value="Strings.go example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strings.go example" />
   </component>
 </project>
