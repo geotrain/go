@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build structs.go">
+  <component name="RunManager" selected="Go Build.go build methods.go">
     <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -83,11 +83,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build functions2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build methods.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/functions2.go" />
+      <filePath value="$PROJECT_DIR$/methods.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build methods.go" />
         <item itemvalue="Go Build.go build structs.go" />
         <item itemvalue="Go Build.go build defer.go" />
         <item itemvalue="Go Build.go build errorReturn.go" />
         <item itemvalue="Go Build.go build parameterPassing.go" />
-        <item itemvalue="Go Build.go build functions2.go" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +137,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Values.go file" />
     <MESSAGE value="Add variables go script" />
     <MESSAGE value="Add constants script" />
     <MESSAGE value="Change Comments" />
@@ -162,6 +161,7 @@
     <MESSAGE value="parameter passing" />
     <MESSAGE value="Error return example" />
     <MESSAGE value="defer function example" />
-    <option name="LAST_COMMIT_MESSAGE" value="defer function example" />
+    <MESSAGE value="struct example" />
+    <option name="LAST_COMMIT_MESSAGE" value="struct example" />
   </component>
 </project>
