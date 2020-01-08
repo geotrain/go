@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build defer.go">
+  <component name="RunManager" selected="Go Build.go build structs.go">
     <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -91,14 +91,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mapsChallenge.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/mapsChallenge.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build parameterPassing.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -107,13 +99,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build structs.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/structs.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build structs.go" />
         <item itemvalue="Go Build.go build defer.go" />
         <item itemvalue="Go Build.go build errorReturn.go" />
         <item itemvalue="Go Build.go build parameterPassing.go" />
         <item itemvalue="Go Build.go build functions2.go" />
-        <item itemvalue="Go Build.go build mapsChallenge.go" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +137,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Hello World Script" />
     <MESSAGE value="Add Values.go file" />
     <MESSAGE value="Add variables go script" />
     <MESSAGE value="Add constants script" />
@@ -162,6 +161,7 @@
     <MESSAGE value="Functions Example 2" />
     <MESSAGE value="parameter passing" />
     <MESSAGE value="Error return example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error return example" />
+    <MESSAGE value="defer function example" />
+    <option name="LAST_COMMIT_MESSAGE" value="defer function example" />
   </component>
 </project>
