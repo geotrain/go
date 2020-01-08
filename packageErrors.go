@@ -8,7 +8,7 @@ import (
 )
 
 type Config struct {
-	// Configuretion fields go here (redacted)
+	// Configuration fields go here (redacted)
 }
 
 func readConfig(path string) (*Config, error) {

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packageErrors.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packageErrors.go" beforeDir="false" afterPath="$PROJECT_DIR$/packageErrors.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for loop examples" />
     <MESSAGE value="If Else Examples" />
     <MESSAGE value="Switch statement examples" />
     <MESSAGE value="Slice Examples" />
@@ -162,6 +160,7 @@
     <MESSAGE value="methods example" />
     <MESSAGE value="New Structs With Functions Example" />
     <MESSAGE value="interfaces example" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces example" />
+    <MESSAGE value="package errors example" />
+    <option name="LAST_COMMIT_MESSAGE" value="package errors example" />
   </component>
 </project>
