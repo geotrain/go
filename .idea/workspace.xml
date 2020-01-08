@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/panicAndRecover.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverKill.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,20 +66,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build panicAndRecover.go">
+  <component name="RunManager" selected="Go Build.go build serverKill.go">
     <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/interfaces.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build methods.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/methods.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -107,13 +99,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build serverKill.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/serverKill.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build serverKill.go" />
         <item itemvalue="Go Build.go build panicAndRecover.go" />
         <item itemvalue="Go Build.go build packageErrors.go" />
         <item itemvalue="Go Build.go build interfaces.go" />
         <item itemvalue="Go Build.go build newStructsWithFunctions.go" />
-        <item itemvalue="Go Build.go build methods.go" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +137,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Switch statement examples" />
     <MESSAGE value="Slice Examples" />
     <MESSAGE value="Maps example" />
     <MESSAGE value="Range Examples" />
@@ -162,6 +161,7 @@
     <MESSAGE value="interfaces example" />
     <MESSAGE value="package errors example" />
     <MESSAGE value="correct spelling" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct spelling" />
+    <MESSAGE value="panic_and_recover example" />
+    <option name="LAST_COMMIT_MESSAGE" value="panic_and_recover example" />
   </component>
 </project>
