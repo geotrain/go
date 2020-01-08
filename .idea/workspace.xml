@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/packageErrors.go" beforeDir="false" afterPath="$PROJECT_DIR$/packageErrors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panicAndRecover.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build packageErrors.go">
+  <component name="RunManager" selected="Go Build.go build panicAndRecover.go">
     <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -98,21 +99,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build structs.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build panicAndRecover.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/structs.go" />
+      <filePath value="$PROJECT_DIR$/panicAndRecover.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build panicAndRecover.go" />
         <item itemvalue="Go Build.go build packageErrors.go" />
         <item itemvalue="Go Build.go build interfaces.go" />
         <item itemvalue="Go Build.go build newStructsWithFunctions.go" />
         <item itemvalue="Go Build.go build methods.go" />
-        <item itemvalue="Go Build.go build structs.go" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="If Else Examples" />
     <MESSAGE value="Switch statement examples" />
     <MESSAGE value="Slice Examples" />
     <MESSAGE value="Maps example" />
@@ -161,6 +161,7 @@
     <MESSAGE value="New Structs With Functions Example" />
     <MESSAGE value="interfaces example" />
     <MESSAGE value="package errors example" />
-    <option name="LAST_COMMIT_MESSAGE" value="package errors example" />
+    <MESSAGE value="correct spelling" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct spelling" />
   </component>
 </project>
