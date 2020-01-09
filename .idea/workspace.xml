@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpCalls.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,12 +67,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build json.go">
+  <component name="RunManager" selected="Go Build.go build httpCalls.go">
     <configuration name="go build channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/channels.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build httpCalls.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/httpCalls.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -92,14 +100,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build serverKill.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/serverKill.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build sites.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build httpCalls.go" />
         <item itemvalue="Go Build.go build json.go" />
         <item itemvalue="Go Build.go build select.go" />
         <item itemvalue="Go Build.go build channels.go" />
         <item itemvalue="Go Build.go build sites.go" />
-        <item itemvalue="Go Build.go build serverKill.go" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Range Examples" />
     <MESSAGE value="Function examples" />
     <MESSAGE value="Multiple Return Value examples" />
     <MESSAGE value="Add mean.go file" />
@@ -163,6 +162,7 @@
     <MESSAGE value="panic_and_recover example" />
     <MESSAGE value="channels example" />
     <MESSAGE value="select statement using channels and timeout value for this go routine" />
-    <option name="LAST_COMMIT_MESSAGE" value="select statement using channels and timeout value for this go routine" />
+    <MESSAGE value="json example" />
+    <option name="LAST_COMMIT_MESSAGE" value="json example" />
   </component>
 </project>
