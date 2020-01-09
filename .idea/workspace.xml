@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sites.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channels.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,12 +67,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build sites.go">
-    <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build channels.go">
+    <configuration name="go build channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/interfaces.go" />
+      <filePath value="$PROJECT_DIR$/channels.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build channels.go" />
         <item itemvalue="Go Build.go build sites.go" />
         <item itemvalue="Go Build.go build serverKill.go" />
         <item itemvalue="Go Build.go build panicAndRecover.go" />
         <item itemvalue="Go Build.go build packageErrors.go" />
-        <item itemvalue="Go Build.go build interfaces.go" />
       </list>
     </recent_temporary>
   </component>
