@@ -8,10 +8,13 @@ import (
 	"net/http"
 )
 
-// User is a github user information
+// User is a github user information taken from https://api.github.com/users/geotrain
 type User struct {
 	Name        string `json:"name"`
 	PublicRepos int    `json:"public_repos"`
+	GitHubURL   string `json:"url"`
+	LastUpdated string `json:"updated_at"`
+	Repos       string `json:"repos_url"`
 }
 
 // userInfo return information on github user

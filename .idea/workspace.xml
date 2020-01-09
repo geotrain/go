@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gitHubAPI.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitHubAPI.go" beforeDir="false" afterPath="$PROJECT_DIR$/gitHubAPI.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +138,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Multiple Return Value examples" />
     <MESSAGE value="Add mean.go file" />
     <MESSAGE value="Add fizz buzz challenage" />
     <MESSAGE value="Fix logic order to check if number is divisible by 3 and 5 with &amp;&amp; in the if statement first before checking if only divisible by 3 or 5 individually so it will print both words &quot;fizz buzz&quot; for number 15" />
@@ -163,6 +162,7 @@
     <MESSAGE value="select statement using channels and timeout value for this go routine" />
     <MESSAGE value="json example" />
     <MESSAGE value="http call GET / POST example using json" />
-    <option name="LAST_COMMIT_MESSAGE" value="http call GET / POST example using json" />
+    <MESSAGE value="github API call" />
+    <option name="LAST_COMMIT_MESSAGE" value="github API call" />
   </component>
 </project>
