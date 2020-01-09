@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/httpCalls.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitHubAPI.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,12 +67,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build httpCalls.go">
+  <component name="RunManager" selected="Go Build.go build gitHubAPI.go">
     <configuration name="go build channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/channels.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gitHubAPI.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gitHubAPI.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -100,21 +108,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build sites.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/sites.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gitHubAPI.go" />
         <item itemvalue="Go Build.go build httpCalls.go" />
         <item itemvalue="Go Build.go build json.go" />
         <item itemvalue="Go Build.go build select.go" />
         <item itemvalue="Go Build.go build channels.go" />
-        <item itemvalue="Go Build.go build sites.go" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Function examples" />
     <MESSAGE value="Multiple Return Value examples" />
     <MESSAGE value="Add mean.go file" />
     <MESSAGE value="Add fizz buzz challenage" />
@@ -163,6 +162,7 @@
     <MESSAGE value="channels example" />
     <MESSAGE value="select statement using channels and timeout value for this go routine" />
     <MESSAGE value="json example" />
-    <option name="LAST_COMMIT_MESSAGE" value="json example" />
+    <MESSAGE value="http call GET / POST example using json" />
+    <option name="LAST_COMMIT_MESSAGE" value="http call GET / POST example using json" />
   </component>
 </project>
