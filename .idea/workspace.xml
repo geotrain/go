@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/databaseKeyValue.go" afterDir="false" />
+    <list default="true" id="cd6c2533-1a59-4d72-b0c1-4c6c60be1f1f" name="Default Changelist" comment="Text to MP3 Code">
+      <change afterPath="$PROJECT_DIR$/convertStringToMp3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +67,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build databaseKeyValue.go">
+  <component name="RunManager" selected="Go Build.go build convertStringToMp3.go">
     <configuration name="go build GitHubHTTPServer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLang" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/GitHubHTTPServer.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build convertStringToMp3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/convertStringToMp3.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -99,21 +108,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoLang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/json.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build convertStringToMp3.go" />
         <item itemvalue="Go Build.go build databaseKeyValue.go" />
         <item itemvalue="Go Build.go build GitHubHTTPServer.go" />
         <item itemvalue="Go Build.go build gitHubAPI.go" />
         <item itemvalue="Go Build.go build httpCalls.go" />
-        <item itemvalue="Go Build.go build json.go" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +138,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add fizz buzz challenage" />
     <MESSAGE value="Fix logic order to check if number is divisible by 3 and 5 with &amp;&amp; in the if statement first before checking if only divisible by 3 or 5 individually so it will print both words &quot;fizz buzz&quot; for number 15" />
     <MESSAGE value="Strings.go example" />
     <MESSAGE value="evenEndedNumbers challenge" />
@@ -162,6 +162,7 @@
     <MESSAGE value="http call GET / POST example using json" />
     <MESSAGE value="github API call" />
     <MESSAGE value="httpd example" />
-    <option name="LAST_COMMIT_MESSAGE" value="httpd example" />
+    <MESSAGE value="Text to MP3 Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Text to MP3 Code" />
   </component>
 </project>
