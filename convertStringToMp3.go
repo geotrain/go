@@ -15,4 +15,5 @@ func main() {
 		return
 	}
 	fmt.Println("You entered the following string: ", input)
+
 }
